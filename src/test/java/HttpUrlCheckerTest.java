@@ -105,6 +105,4 @@ public class HttpUrlCheckerTest {
         Matcher matcher = HttpUrlChecker.getMatcher("http://www.37-.com");
         assertFalse(matcher.find());
     }
-
-
 }
