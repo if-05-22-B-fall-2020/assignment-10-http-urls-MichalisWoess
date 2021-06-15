@@ -66,6 +66,7 @@ public class HttpUrlCheckerTest {
         checkRegex("http://456bereastreet.com");
     }
 
+    //Unit Test 7
     @Test
     public void testDomainWithNumbersOnly() {
         checkRegex("http://37.com");
