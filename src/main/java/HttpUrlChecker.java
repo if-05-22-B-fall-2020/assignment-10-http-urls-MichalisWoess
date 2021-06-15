@@ -34,7 +34,7 @@ public class HttpUrlChecker {
         //https?:\/\/(www\.)?([a-zA-Z0-9]+(\.|\-))+[a-zA-Z]+
         //^ Full Pattern
 
-        Pattern pattern = Pattern.compile("http://(www\\.)?([a-z0-9]+(\\.|-))*[a-z0-9]*\\.[a-z]+");
+        Pattern pattern = Pattern.compile("https?://(www\\.)?([a-z0-9]+(\\.|-))*[a-z0-9]*\\.[a-z]+");
         Matcher matcher = pattern.matcher(s);
 
         return matcher;
