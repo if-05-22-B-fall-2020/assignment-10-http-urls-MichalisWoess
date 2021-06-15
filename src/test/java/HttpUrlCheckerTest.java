@@ -84,6 +84,7 @@ public class HttpUrlCheckerTest {
         assertFalse(matcher.find());
     }
 
+    //Unit Test 10
     @Test
     public void testHostWithHyphenAtBegin() {
         Matcher matcher = HttpUrlChecker.getMatcher("http://-37.com");
